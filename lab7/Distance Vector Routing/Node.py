@@ -17,16 +17,18 @@ class Node:
         self.node.listen()
         node1, addr = self.node.accept()
         start = time()
-        node1.send(bytes('1', 'utf-8'))
+        for i in range(100):
+            node1.send(bytes('1', 'utf-8'))
         node1.recv(8).decode('utf-8')
         end = time()
-        rtt = str(end - start)
+        rtt = str((end - start)/100)
         node1.send(bytes(rtt, 'utf-8'))
         node1.close()
 
     def client(self, host):
         self.node.connect((host, self.port))
-        self.node.recv(8).decode('utf-8')
+        for i in range(100):
+            self.node.recv(8).decode('utf-8')
         self.node.send(bytes('2', 'utf-8'))
         rtt = self.node.recv(1024).decode('utf-8')
         print(rtt)
