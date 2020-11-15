@@ -6,12 +6,6 @@ from helperFunctions import getRTTServer, getRTTClient
 
 errors = []
 
-PORT = 9100
-IP1 = "13.232.180.181"
-IP2 = "65.0.184.153"
-IP3 = "65.0.134.251"
-IP4 = "13.233.106.183"
-
 
 class Node:
     def __init__(self, host, port):

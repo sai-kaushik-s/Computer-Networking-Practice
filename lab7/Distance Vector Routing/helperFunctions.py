@@ -16,3 +16,9 @@ def getRTTClient(node1):
         node1.recv(1).decode('utf-8')
     node1.send(bytes('2', 'utf-8'))
     return node1.recv(1024).decode('utf-8')
+
+
+def printDict(routingTable):
+    print("{:<10} {:<10} {:<10}".format('Destination', 'RTT', 'Next Hop'))
+    for _ in range(4):
+        print("{:<10} {:<10} {:<10}".format('node' + str(_+1), routingTable["rtt"][_], routingTable["next hop"][_]))
