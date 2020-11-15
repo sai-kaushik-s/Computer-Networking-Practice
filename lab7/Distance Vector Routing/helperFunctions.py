@@ -1,10 +1,8 @@
-from time import time, sleep
-from random import randint
+from time import time
 
 
 def getRTTServer(node1):
     start = time()
-    sleep(randint(3, randint(4, 9))/10)
     for i in range(100):
         node1.send(bytes('1', 'utf-8'))
     node1.recv(8).decode('utf-8')
