@@ -1,12 +1,12 @@
-from Node import Node, PORT
+from Node import Node, PORT, IP1, IP2, IP3, IP4
 
 
 def getRTTList(n4):
-    n1 = n4.client('127.0.0.1', data=[])
+    n1 = n4.client(IP1, data=[])
     n4.restart()
-    n2 = n4.client('127.0.0.2', data=[])
+    n2 = n4.client(IP2, data=[])
     n4.restart()
-    n3 = n4.client('127.0.0.3', data=[])
+    n3 = n4.client(IP3, data=[])
     n4.restart()
     n4.server(data=node4RT["rtt"])
     n4.restart()
@@ -30,14 +30,14 @@ if __name__ == "__main__":
             "next hop": ["node1", "node2", "node3", "node4"]
         }
     nextOptions = ["node1", "node2", "node3"]
-    node4 = Node('127.0.0.4', PORT)
-    node4RT["rtt"].append(node4.client('127.0.0.1'))
+    node4 = Node(IP4, PORT)
+    node4RT["rtt"].append(node4.client(IP1))
     print("node1, node4: " + node4RT["rtt"][-1])
     node4.restart()
-    node4RT["rtt"].append(node4.client('127.0.0.2'))
+    node4RT["rtt"].append(node4.client(IP2))
     print("node2, node4: " + node4RT["rtt"][-1])
     node4.restart()
-    node4RT["rtt"].append(node4.client('127.0.0.3'))
+    node4RT["rtt"].append(node4.client(IP3))
     print("node3, node4: " + node4RT["rtt"][-1])
     node4.restart()
     node4.server()
@@ -48,4 +48,5 @@ if __name__ == "__main__":
         node4.port += 1
         node1, node2, node3 = getRTTList(node4)
         updateRTTList()
+        print("Iteration {it}:".format(it=i+1))
         print(node4RT)
