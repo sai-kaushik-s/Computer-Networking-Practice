@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2b08157-ba63-457f-8c83-73d4db4e2ce9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distance Vector Routing/.idea/Distance Vector Routing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lab7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distance Vector Routing/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distance Vector Routing/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distance Vector Routing/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distance Vector Routing/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distance Vector Routing/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distance Vector Routing/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distance Vector Routing/node1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Distance Vector Routing/node1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distance Vector Routing/node2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Distance Vector Routing/node2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distance Vector Routing/node3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Distance Vector Routing/node3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distance Vector Routing/node4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Distance Vector Routing/node4.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1keZrI64AJJudfAqcNUr2bJjgjB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2b08157-ba63-457f-8c83-73d4db4e2ce9" name="Default Changelist" comment="" />
+      <created>1606063218265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606063218265</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="683" y="27" width="683" height="741" key="DiffContextDialog" timestamp="1606063371144">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="683" y="27" width="683" height="741" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1606063371144" />
+    <state x="0" y="27" width="1366" height="741" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1606063371144">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="27" width="1366" height="741" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.27.1366.741@0.27.1366.741" timestamp="1606063371144" />
+  </component>
+</project>
